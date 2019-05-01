@@ -183,7 +183,7 @@ void draw() {
           //draw groundhog
           image(groundhog,groundhogX,groundhogY);
     
-    // Health UI
+    // life
       for(int i=0;i<initialLife;i++){
       image(life,10+(life.width+20)*i,10);  
       }
